@@ -11,7 +11,7 @@ tags:
 - sentiment-analysis
 ---
 
-# QLoRA Fine-tuned Mental Health Classification Model
+# QLoRA Fine-tuned Mental Health Classification Model (EXPERIMENTAL)
 
 This repository contains a **4-bit quantized BERT-based model (`bert-base-uncased`) fine-tuned using QLoRA (Quantized Low-Rank Adaptation)** for multi-class mental health classification. The model was fine-tuned on the `sentiment-analysis-for-mental-health` dataset (specifically `Combined Data.csv`) from Kaggle.
 
