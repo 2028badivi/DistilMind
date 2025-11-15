@@ -22,12 +22,12 @@ QLoRA significantly reduces memory footprint and accelerates the fine-tuning pro
 ### Model Description
 This model is a specialized text classifier designed to identify different mental health-related sentiments or conditions from textual input. It leverages the robust language understanding capabilities of the `bert-base-uncased` model, enhanced by QLoRA for efficient fine-tuning on a specific mental health dataset.
 
-- **Developed by:** An AI Agent (Google Colab Composer)
-- **Shared by:** 2028badivi (via Google Colab)
+- **Developed by:** Bhavesh Adivi
+- **Shared by:** Bhavesh Adivi (via Google Colab Git CLI)
 - **Model type:** BERT-based Sequence Classification with QLoRA adapters
 - **Language(s) (NLP):** English
-- **License:** MIT License (or choose appropriate license)
-- **Finetuned from model:** `bert-base-uncased`
+- **License:** none (TBD)
+- **Finetuned from model:** `bert-base-uncased` using QLoRA adaptors on Nvidia Tesla 4 GPU
 
 ### Model Sources
 
@@ -41,6 +41,7 @@ This model is intended for multi-class mental health classification on short tex
 -   Categorizing user-generated text (e.g., social media posts, forum discussions) into mental health categories (e.g., Anxiety, Depression, Suicidal, Normal, Stress, Bipolar, Personality disorder).
 -   Initial screening or routing of mental health-related communications.
 -   Research purposes to analyze trends in mental health discussions.
+-   Further fine-tuning on community data for enhanced applicability
 
 ### Downstream Use
 This model can be integrated into larger applications, such as:
