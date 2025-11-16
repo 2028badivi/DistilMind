@@ -26,7 +26,7 @@ This model is a specialized text classifier designed to identify different menta
 - **Shared by:** Bhavesh Adivi (via Google Colab Git CLI)
 - **Model type:** BERT-based Sequence Classification with QLoRA adapters
 - **Language(s) (NLP):** English
-- **License:** none (TBD)
+- **License:** Apache License 2.0
 - **Finetuned from model:** `bert-base-uncased` using QLoRA adaptors on Nvidia Tesla 4 GPU
 
 ### Model Sources
