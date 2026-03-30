@@ -9,9 +9,9 @@ Type: Natural Language text sentiment classifier using Google BERT + QLoRA adapt
 Purpose: Detect mental health sentiments througgh short text
 Uses: Social media, forums, research, screening
 
-============================
+
 Originally prototyped for community health project as a Fairfax County Public Youth Health Ambassador
-============================
+
 
 Not for Medical diagnosis or treatment
 
