@@ -1,22 +1,40 @@
 Mental Health Text Classifier (QLoRA, BERT)
-This is a small, efficient model built with bert-base-uncased and QLoRA. It classifies mental health-related text into categories like Anxiety, Depression, etc.
+This is a small and efficient model built with bert-base-uncased and fine-tuned under Quantized Low Rank Adaptation. It classifies mental health-related text into categories like Anxiety, Depression, etc.
 
-About the Model
-Type: Text classifier using BERT + QLoRA adapters
-Purpose: Detect mental health sentiments in short text
+
+
+DistilBert Info
+
+Type: Natural Language text sentiment classifier using Google BERT + QLoRA adapters
+Purpose: Detect mental health sentiments througgh short text
 Uses: Social media, forums, research, screening
-Not for: Medical diagnosis or self-treatment
+
+============================
+Originally prototyped for community health project as a Fairfax County Public Youth Health Ambassador
+============================
+
+Not for Medical diagnosis or treatment
+
+
 Details
 Created by: Bhavesh Adivi
-Data: Kaggle mental health sentiment dataset
-Hardware: Trained on Nvidia Tesla GPUs
+Data: "Kaggle mental health sentiment dataset"
+Hardware: Trained on Nvidia Tesla 4 GPU - Access provided by Google Colab
 License: Apache 2.0
-How to Use
-Classify user posts or comments for mental health signs
-Use in apps for mental health monitoring or early alerts
-Can be further fine-tuned for better results
-Important Notes
-Not for diagnosing or replacing health professionals
-Bias risk: Data biases may affect results
-Limitations: Might miss subtle cues, sarcasm, or context
-Always involve human judgment and privacy protections
+
+
+Usage & Inference:
+Can be used to (experimentally) classify user posts or comments for mental health signs
+Use in apps for (experimental) mental health monitoring or (experimental only) early alerts
+Can be further fine-tuned for better results or distinct cohorts
+
+
+Important Notes to consider:
+This is NOT meant for immediate diagnosis or replacing health professionals
+Bias risk included: Potential data biases may affect results from datasets
+Some Limitations might include missing indirect or subtle cues such as sarcasm or critical context
+Make sure to always involve human judgment and privacy protections
+
+
+Model is hosted on Hugging Face for inference:
+https://huggingface.co/spaces/bhaveshadivi/distilMind
